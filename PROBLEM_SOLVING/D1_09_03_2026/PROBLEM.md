@@ -32,7 +32,7 @@ Output:
 
 #
 
-> [!NOTE] Rules
+> [!NOTE]
 > তুমি ব্যবহার করতে পারবে না `Math.max()`, তোমাকে নিজের logic দিয়ে বের করতে হবে।
 
 Function structure:
@@ -45,5 +45,5 @@ function findLargestNumber(numbers) {
 
 #
 
-> [!TIP] Bonus (কঠিন)
+> [!TIP]
 > _যদি array empty হয় `[]` তখন return করবে `"Array is empty"`_
