@@ -14,9 +14,3 @@ This repository documents my **JavaScript learning journey by Programming Hero**
 <p align="left">
     <img src="https://i.ibb.co.com/99TLyVf2/B12-JS-README-BANNER.png" alt="B12JS in action" />
 </p>
-
-## License
-
-Copyright (c) Shahed Bishwas. All rights reserved.
-
-Licensed under the [MIT](LICENSE) license.
