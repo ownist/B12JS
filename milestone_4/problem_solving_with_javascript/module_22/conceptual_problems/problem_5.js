@@ -17,7 +17,7 @@ function calculateSleepTime(times) {
   const remainingSecondsAfterHour = totalSeconds % 3600;
   const minute = Math.floor(remainingSecondsAfterHour / 60);
 
-  // at the end bo-shesh e ja baki thake ta holo second
+  // at the end sob-shesh e ja baki thake ta holo second
   const second = remainingSecondsAfterHour % 60;
 
   // then object akare return kora
