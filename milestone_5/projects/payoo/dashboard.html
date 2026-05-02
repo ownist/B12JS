@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard</title>
-    
+
     <!-- favicon -->
     <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
 
@@ -20,8 +20,40 @@
       rel="stylesheet"
       type="text/css"
     />
+
+    <!-- link font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
-  <body>
-    <h1>welcome to the dashboard</h1>
+  <body class="bg-[#1C1C1E] text-white w-full h-screen">
+    <!-- header -->
+    <div
+      class="flex items-center justify-between px-4 py-4 border-b border-b-zinc-800"
+    >
+      <div class="flex items-center gap-1">
+        <div class="">
+          <img src="./assets/taka.png" alt="logo" />
+        </div>
+        <div class="">
+          <span class="text-lg font-semibold">$ <span>4500</span></span>
+          <p class="text-sm font-normal text-zinc-400">Available Balance</p>
+        </div>
+      </div>
+      <button
+        class="px-3 py-2 text-zinc-400 rounded-md outline outline-zinc-600"
+      >
+        <span>
+          <i
+            class="fa-solid fa-arrow-right-from-bracket -rotate-180 text-xs"
+          ></i>
+        </span>
+        <span class="text-sm font-normal">Log Out</span>
+      </button>
+    </div>
   </body>
 </html>
