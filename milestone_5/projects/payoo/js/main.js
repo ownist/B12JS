@@ -13,10 +13,7 @@ btnContinue.addEventListener("click", function (e) {
   const userPinNumber = document.getElementById("pin").value;
 
   // check user data and redirect to the dashboard page
-  if (
-    parseInt(userPhoneNumber) === parseInt(phoneNumber) &&
-    parseInt(pinNumber) === parseInt(pinNumber)
-  ) {
+  if (userPhoneNumber === phoneNumber && userPinNumber === pinNumber) {
     window.location.href = "dashboard.html";
   } else {
     alert("Invalid phone number and pin. Tray again!");
