@@ -53,6 +53,18 @@ document.getElementById("btnWithdraw").addEventListener("click", function (e) {
     document.getElementById("totalbalance").innerText,
   );
 
+  // agent number validation
+  if (agentNumber.length < 11) {
+    alert("Provide a valid agent number!");
+    return;
+  }
+
+  // validate pin number
+  if (cashoutPinNumber !== validpinNumber) {
+    alert("Invalid pin number. Try again!");
+    return;
+  }
+
   const presentAmmount = totalbalance - cashoutAmmount;
 
   // set present ammount
