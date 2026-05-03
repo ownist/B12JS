@@ -28,3 +28,14 @@ document.getElementById("btnAddMoney").addEventListener("click", function (e) {
   // set balance
   document.getElementById("totalbalance").innerText = totalAmmount;
 });
+
+// implemet add money and cashout toggle feature
+document.getElementById("addMoneyBtn").addEventListener("click", function () {
+  document.getElementById("cashoutContainer").style.display = "none";
+  document.getElementById("addMoneyContainer").style.display = "block";
+});
+
+document.getElementById("cashoutBtn").addEventListener("click", function () {
+  document.getElementById("addMoneyContainer").style.display = "none";
+  document.getElementById("cashoutContainer").style.display = "block";
+});

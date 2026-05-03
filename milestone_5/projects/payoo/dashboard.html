@@ -72,6 +72,7 @@
         <div class="grid grid-cols-2 gap-4">
           <!-- single card -->
           <div
+            id="addMoneyBtn"
             class="px-3 py-5 rounded-xl outline outline-zinc-700 flex flex-col items-center justify-center gap-2"
           >
             <img src="./assets/opt-1.png" alt="card icon" />
@@ -79,6 +80,7 @@
           </div>
           <!-- single card -->
           <div
+            id="cashoutBtn"
             class="px-3 py-5 rounded-xl outline outline-zinc-700 flex flex-col items-center justify-center gap-2"
           >
             <img src="./assets/opt-2.png" alt="card icon" />
@@ -116,8 +118,9 @@
           </div>
         </div>
       </section>
-      <!-- action section -->
-      <section class="px-4 py-10">
+
+      <!-- add money section -->
+      <section id="addMoneyContainer" class="px-4 py-10">
         <h1 class="text-lg font-semibold mb-4">Add Money</h1>
         <!-- form -->
         <form action="#" class="space-y-4">
@@ -194,6 +197,39 @@
             class="text-base font-normal w-full px-4 py-3.5 bg-white text-zinc-900 rounded-[30px]"
           >
             Add Money
+          </button>
+        </form>
+      </section>
+
+      <!-- cashout section -->
+      <section id="cashoutContainer" class="px-4 py-10">
+        <h1 class="text-lg font-semibold mb-4">Cash Out</h1>
+        <!-- form -->
+        <form action="#" class="space-y-4">
+          <!-- input group -->
+          <div class="flex flex-col space-y-3">
+            <label
+              for="bankAccountNumber"
+              class="text-zinc-400 text-base font-medium"
+              >Bank Account Number</label
+            >
+            <input
+              class="text-zinc-300 text-base w-full font-light px-5 py-4 bg-zinc-800 rounded-lg outline-none border-none focus:bg-zinc-700"
+              type="number"
+              name="bankAccountNumber"
+              id="bankAccountNumber"
+              placeholder="Enter 11 digit account number"
+              required
+            />
+          </div>
+
+          <!-- btn -->
+          <button
+            type="submit"
+            id="btnAddMoney"
+            class="text-base font-normal w-full px-4 py-3.5 bg-white text-zinc-900 rounded-[30px]"
+          >
+            Cashout
           </button>
         </form>
       </section>
